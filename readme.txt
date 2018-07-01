@@ -44,9 +44,9 @@ Esta sección describe cómo instalar el plugin y hacer que funcione.
 P.ej.
 
 1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Use the Settings->Plugin Name screen to configure the plugin
-1. (Haz que tus instrucciones se ajusten al flujo de usuario deseado para la activación e instalación de tu plugin. Incluye cuanlquier paso necesario para que se entienda)
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Use the Settings->Plugin Name screen to configure the plugin
+4. (Haz que tus instrucciones se ajusten al flujo de usuario deseado para la activación e instalación de tu plugin. Incluye cuanlquier paso necesario para que se entienda)
 
 
 == Frequently Asked Questions ==
@@ -94,8 +94,8 @@ en los que se debe facilitar mucha información que no se ajuste a las categorí
 Lista ordenada:
 
 1. Una característica
-1. Otra característica
-1. Algo más del plugin
+2. Otra característica
+3. Algo más del plugin
 
 Lista desordenada:
 
