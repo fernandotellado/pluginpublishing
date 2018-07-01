@@ -9,3 +9,12 @@ _e( 'Texto a traducir', 'mi-plugin' )
 /* O la versión larga */
 
 echo __( 'Texto a traducir', 'mi-plugin' )
+
+/* Internacionalizando con variables y placeholders */
+
+printf(
+    /* Traductores: 1: Nombre de la ciudad 2: Código postal */
+    __( 'Tu código postal es %2$s y tu ciudad es %1$s.', 'mi-plugin' ),
+    $city,
+    $zipcode
+);
