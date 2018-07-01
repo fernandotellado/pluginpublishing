@@ -1,0 +1,23 @@
+<?php
+/*
+Plugin Name:  Nombre de mi plugin
+Plugin URI:   https://developer.wordpress.org/plugins/the-basics/
+Description:  Descripción básica de lo que hace el plugin
+Version:      1.0
+Author:       Mi nombre
+Author URI:   https://miweb.es
+License:      GPL2
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  slug-de-mi-plugin
+Domain Path:  /languages
+*/
+/* 
+A partir de aquí va tu código
+*/
+/* Impedir ejecución de PHP en la ruta. Incluye siempre esto en tus plugins. Sustituye "mi-plugin" y "mi_plugin" por el slug de tu plugin */
+defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
+/* INIT para internacionalización. Incluye siempre esto en tus plugins */
+function mi_plugin_init() {
+	load_plugin_textdomain( 'mi-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
+add_action( 'plugins_loaded', 'mi_plugin_init' );
