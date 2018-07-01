@@ -10,13 +10,27 @@ License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  slug-de-mi-plugin
 Domain Path:  /languages
+/*
+{Nombre de mi plugin} is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+ 
+{Nombre de mi plugin} is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with {Nombre de mi plugin}. If not, see {URI a la licencia del plugin}.
+*/
 */
 /* 
 A partir de aquí va tu código
 */
-/* Impedir ejecución de PHP en la ruta. Incluye siempre esto en tus plugins. Sustituye "mi-plugin" y "mi_plugin" por el slug de tu plugin */
+/* Impedir ejecución de PHP en la ruta. Incluye siempre esto en tus plugins */
 defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
-/* INIT para internacionalización. Incluye siempre esto en tus plugins */
+/* INIT para internacionalización. Incluye siempre esto en tus plugins. Sustituye "mi-plugin" y "mi_plugin" por el slug de tu plugin */
 function mi_plugin_init() {
 	load_plugin_textdomain( 'mi-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
