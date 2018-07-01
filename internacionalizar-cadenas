@@ -1,0 +1,11 @@
+/* Internacionalizando cadenas del plugin con Gettext */
+
+__( 'Texto a traducir', 'mi-plugin' );
+
+/* O también */
+
+_e( 'Texto a traducir', 'mi-plugin' )
+
+/* O la versión larga */
+
+echo __( 'Texto a traducir', 'mi-plugin' )
