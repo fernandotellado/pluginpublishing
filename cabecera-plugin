@@ -10,6 +10,8 @@ License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  slug-de-mi-plugin
 Domain Path:  /languages
+WC requires at least: 3.0 (buena práctica en plugins para WooCommerce, se muestra al actualizar una advertencia)
+WC tested up to: 3.4 (buena práctica en plugins para WooCommerce, se muestra al actualizar una advertencia)
 /*
 {Nombre de mi plugin} is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
